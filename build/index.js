@@ -1,7 +1,5 @@
 'use strict';var _pify;
 
-console.trace(111111);
-
 
 
 

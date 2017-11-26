@@ -33,7 +33,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default =
 
 
 
-runTest;var _fs;function _load_fs() {return _fs = _interopRequireDefault(require('fs'));}var _jestUtil;function _load_jestUtil() {return _jestUtil = require('jest-util');}var _jestJasmine;function _load_jestJasmine() {return _jestJasmine = _interopRequireDefault(require('wonder-jest-jasmine2'));}var _jestConfig;function _load_jestConfig() {return _jestConfig = require('jest-config');}var _jestDocblock;function _load_jestDocblock() {return _jestDocblock = _interopRequireDefault(require('jest-docblock'));}function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };} // The default jest-runner is required because it is the default test runner
+runTest;var _fs;function _load_fs() {return _fs = _interopRequireDefault(require('fs'));}var _jestUtil;function _load_jestUtil() {return _jestUtil = require('jest-util');}var _jestJasmine;function _load_jestJasmine() {return _jestJasmine = _interopRequireDefault(require('wonder-jest-jasmine2'));}var _jestConfig;function _load_jestConfig() {return _jestConfig = require('wonder-jest-config');}var _jestDocblock;function _load_jestDocblock() {return _jestDocblock = _interopRequireDefault(require('jest-docblock'));}function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };} // The default jest-runner is required because it is the default test runner
 // and required implicitly through the `testRunner` ProjectConfig option.
 (_jestJasmine || _load_jestJasmine()).default; /**
                                                 * Copyright (c) 2014-present, Facebook, Inc. All rights reserved.
